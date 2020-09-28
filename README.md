@@ -1,3 +1,7 @@
+# Maven command to create the sample Project.
+
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.1.2:generate -D archetypeGroupId=com.adobe.granite.archetypes -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=23 -D appTitle="CSurvey" -D appId="csurvey" -D groupId="org.myorg" -D frontendModule=angular -D includeExamples=y -D includeDispatcherConfig=n -D includeErrorHandler=y
+
 # Sample AEM project template
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
