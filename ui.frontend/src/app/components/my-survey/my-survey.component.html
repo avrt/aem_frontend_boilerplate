@@ -1,0 +1,7 @@
+<p>my-survey works!</p>
+<ng-container *ngIf="hasQuestion">
+    
+    <div><span>{{question}}</span></div><br/>
+    <div><input type="radio" [value]="opt1" />{{opt1}}</div><br/>
+    <div><input type="radio" [value]="opt2" />{{opt2}}</div><br/>
+</ng-container>
