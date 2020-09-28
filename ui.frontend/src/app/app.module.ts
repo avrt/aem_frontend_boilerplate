@@ -24,7 +24,6 @@ import './components/import-components';
 import { ModelManagerService } from './components/model-manager.service';
 import { PageComponent } from './components/page/page.component';
 import { TextComponent } from './components/text/text.component';
-import { MySurveyComponent } from './components/my-survey/my-survey.component';
 
 @NgModule({
   imports: [
@@ -33,8 +32,8 @@ import { MySurveyComponent } from './components/my-survey/my-survey.component';
     AppRoutingModule
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: '/' }],
-  declarations: [AppComponent, TextComponent, PageComponent, MySurveyComponent],
-  entryComponents: [TextComponent, PageComponent, MySurveyComponent],
+  declarations: [AppComponent, TextComponent, PageComponent],
+  entryComponents: [TextComponent, PageComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

@@ -4,4 +4,6 @@
     <jcr:content
         jcr:primaryType="cq:PageContent"
         sling:resourceType="cq/contexthub/components/segments-listing-page"/>
+    <winter/>
+    <summer/>
 </jcr:root>
