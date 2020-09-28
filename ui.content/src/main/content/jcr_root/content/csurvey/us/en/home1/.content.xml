@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-09-28T03:25:43.678-04:00"
+        cq:lastModified="{Date}2020-09-28T02:30:57.926-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/csurvey/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -21,16 +21,6 @@
                     textIsRich="true">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                 </text>
-                <my_survey
-                    jcr:created="{Date}2020-09-28T03:25:33.042-04:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-09-28T03:25:43.675-04:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="csurvey/components/my-survey"
-                    opt1="Good"
-                    opt2="Excellent"
-                    question="How are you?"/>
             </responsivegrid>
         </root>
     </jcr:content>

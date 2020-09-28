@@ -4,8 +4,10 @@
     <jcr:content
         cq:created="{Date}2018-10-22T17:08:28.689+05:30"
         cq:createdBy="admin"
-        jcr:primaryType="cq:PageContent"
+        cq:lastModified="{Date}2020-09-28T03:24:39.595-04:00"
+        cq:lastModifiedBy="admin"
         cq:templateType="/libs/settings/wcm/template-types/html5page"
+        jcr:primaryType="cq:PageContent"
         jcr:title="CSurvey Page Template"
         status="enabled"/>
 </jcr:root>
